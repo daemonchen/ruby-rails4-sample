@@ -133,6 +133,7 @@ dt {
 
 ul li {
   list-style: none;
+  color: #d3d;
 }
 
 ul li:before {
@@ -247,3 +248,5 @@ a {
 .cf {
   zoom:1;
 }
+
+input{ border: 0; background: #000; color: #d3d; outline: none; width: 70%; font-size: 16px; line-height: 22px; }
