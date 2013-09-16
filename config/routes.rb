@@ -1,6 +1,7 @@
 RubyRails4Sample::Application.routes.draw do
   resources :home
   resources :sorts
+  resources :news
   root :to => "home#index"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
